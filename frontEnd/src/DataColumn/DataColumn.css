@@ -1,0 +1,19 @@
+.dataColumns
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 25px 0 auto 0;
+}
+.dataColumns__row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+.dataColumn
+{
+    width: 100px;
+}

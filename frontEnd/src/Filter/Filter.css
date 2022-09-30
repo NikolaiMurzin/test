@@ -1,0 +1,69 @@
+.filter
+{
+    position: relative;
+    top: 5px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation-timing-function: ease-in-out;
+    transition: 0.3s;
+}
+.filter_open
+{
+    display: flex;
+}
+.filter_closed
+{
+    display: none;
+}
+.openClose
+{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 50%;
+    word-wrap: wrap;
+    margin: 12px -50px 12px 0;
+    cursor: pointer;
+    z-index: 1;
+    user-select: none;
+}
+.expressions
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.expression
+{
+    border-radius: 3px;
+    margin: 3px;
+}
+.expression_active
+{
+    scale: 1.05;
+    border: solid 2px goldenrod;
+}
+.columns
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.column
+{
+    border-radius: 3px;
+    margin: 3px;
+}
+.column_active
+{
+    scale: 1.05;
+    border: solid 2px goldenrod;
+}
+.input
+{
+    margin: 5px;
+    max-height: 20px;
+    border-radius: 3p;
+    align-self: center;
+}
